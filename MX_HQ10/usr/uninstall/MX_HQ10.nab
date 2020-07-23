@@ -1,0 +1,15 @@
+#!/bin/sh
+
+rm -rf /usr/share/enigma2/MX_HQ10
+rm -rf /usr/uninstall/MX_HQ10.nab
+
+activeskin=`grep -c -e 'MX_HQ10' /etc/enigma2/settings`
+
+if test $activeskin = 1
+then
+sed -e '/MX_HQ10/d' /etc/enigma2/settings > /tmp/settings
+mv /tmp/settings /etc/enigma2/settings
+killall -9 enigma2
+fi
+
+exit 0
