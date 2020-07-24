@@ -1117,19 +1117,19 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="20,20" size="780,560" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
-"fonts": [gFont("Regular", 26)],
-"itemHeight": 40
+"fonts": [gFont("Regular", 30)],
+"itemHeight": 45
 }
 </convert>
     </widget>
-    <widget name="statuslab" position="0,600" size="820,100" font="Regular;30" halign="center" foregroundColor="info" backgroundColor="bgmain" transparent="1" />
+    <widget name="key_red" position="210,360" zPosition="1" size="140,40" font="Regular;20" halign="center" valign="center" backgroundColor="#9f1313" transparent="1" />
   </screen>
   <screen name="DeliteSettings" position="30,120" size="820,850" title="Open Black Hole Settings">
     <widget source="list" render="Listbox" enableWrapAround="1" position="0,20" size="820,780" zPosition="1" scrollbarMode="showNever" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x60.png" selectionPixmap="BlackShadowSE_P/menu/sel820x60.png" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
 ],
 "fonts": [gFont("Regular", 34)],
@@ -2286,7 +2286,7 @@ MultiContentEntryPixmap(pos = (10, 7), size = (60, 40), png = 2),
 <widget name="servicename" position="0,67" size="651,90" backgroundColor="transparent" transparent="1" font="Regular;33" borderColor="black" borderWidth="2" valign="center" halign="left"/>
 <widget source="Service" render="Picon" position="0,160" size="220,132" alphatest="blend" backgroundColor="background" transparent="1">
 <convert type="ServiceName">Reference</convert>
-</widget>		
+</widget>
 </screen>
 <screen name="ParentalControlChangePin" position="30,120" size="820,850" title="Change pin code">
 <widget name="config" position="20,20" size="780,600" font="Regular;28" itemHeight="40" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1" />
