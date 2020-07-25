@@ -974,7 +974,7 @@ skin author: Matrix10
     <widget source="list" render="Listbox" position="20,20" size="790,675" enableWrapAround="1" zPosition="2" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgkey" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x75.png" selectionPixmap="BlackShadowSE_P/menu/sel820x75.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (125, 5), size = (670, 40), font=0, text = 0),
+MultiContentEntryText(pos = (125, 5), size = (670, 40), font=0, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (125, 42), size = (670, 32), font=1, text = 1),
 MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2, flags = BT_SCALE)
 ],
@@ -1012,7 +1012,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2, flag
   <screen name="DeliteAddons" position="30,120" size="820,850" title="Addons Manager">
     <widget source="list" render="Listbox" enableWrapAround="1" position="0,20" size="820,600" zPosition="1" scrollbarMode="showNever" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x60.png" selectionPixmap="BlackShadowSE_P/menu/sel820x60.png" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
 ],
 "fonts": [gFont("Regular", 34)],
@@ -1024,7 +1024,7 @@ MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
   <screen name="Nab_downArea" position="30,120" size="820,850" title="Downloads Manager">
     <widget source="list" render="Listbox" enableWrapAround="1" position="0,20" size="820,600" zPosition="1" scrollbarMode="showNever" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x60.png" selectionPixmap="BlackShadowSE_P/menu/sel820x60.png" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
 ],
 "fonts": [gFont("Regular", 34)],
@@ -1037,7 +1037,7 @@ MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
     <widget source="list" render="Listbox" position="0,20" size="810,800" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (20, 2), size = (780, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (20, 2), size = (780, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1057,7 +1057,7 @@ MultiContentEntryText(pos = (20, 2), size = (780, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="0,20" size="820,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1069,7 +1069,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="0,20" size="820,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1082,7 +1082,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="0,20" size="820,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1094,7 +1094,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="20,20" size="780,800" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1176,7 +1176,7 @@ MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
     <widget source="list" render="Listbox" position="20,20" size="780,675" enableWrapAround="1" zPosition="2" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x75.png" selectionPixmap="BlackShadowSE_P/menu/sel820x75.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (125, 5), size = (670, 40), font=0, text = 0),
+MultiContentEntryText(pos = (125, 5), size = (670, 40), font=0, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (125, 42), size = (670, 32), font=1, text = 1),
 MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
 ],
@@ -1370,7 +1370,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (100, 40), png = 2),
     <widget source="list" render="Listbox" position="20,20" size="780,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1384,7 +1384,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="20,20" size="780,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1398,7 +1398,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="20,20" size="780,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1412,7 +1412,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="20,20" size="780,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1426,7 +1426,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
     <widget source="list" render="Listbox" position="20,20" size="780,600" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 26)],
 "itemHeight": 40
@@ -1446,7 +1446,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_mainmenu" position="30,120" size="560,850" title="Main Menu">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1456,7 +1456,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_setup" position="30,120" size="560,850" title="Setup">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1466,7 +1466,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_system" position="30,120" size="560,850" title="System">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1476,7 +1476,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="Menu" position="30,120" size="560,850" title="Menu">
   <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
     <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1486,7 +1486,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_harddisk" position="30,120" size="560,850" title="Harddisk">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1496,7 +1496,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_shutdown" position="30,120" size="560,850" title="Shutdown">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1506,7 +1506,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_information" position="30,120" size="560,850" title="Information">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1516,7 +1516,7 @@ MultiContentEntryText(pos = (10, 2), size = (800, 40), flags = RT_HALIGN_LEFT|RT
   <screen name="menu_scan" position="30,120" size="560,850" title="Service Searching">
     <widget source="menu" render="Listbox" enableWrapAround="1" position="0,10" size="560,825" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x55.png" selectionPixmap="BlackShadowSE_P/menu/sel820x55.png" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0) ],
+{"template": [ MultiContentEntryText(pos = (20, 7), size = (525, 40), flags = RT_HALIGN_LEFT, text =0, color=0xffa500) ],
 "fonts": [gFont("Regular",34)],
 "itemHeight":55
 }
@@ -1717,7 +1717,7 @@ MultiContentEntryText(pos = (670, 3), size = (150, 37),  font = 1, flags = RT_HA
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -1739,7 +1739,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -1761,7 +1761,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -1783,7 +1783,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -1806,7 +1806,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -1828,7 +1828,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -1846,7 +1846,7 @@ MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_
     <widget source="list" render="Listbox" position="20,280" size="820,320" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40a.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 0), size = (800, 40), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 28)],
 "itemHeight": 40
@@ -2660,7 +2660,7 @@ MultiContentEntryText(pos=(210,0), size=(205, 30), text = 2, flags = RT_HALIGN_R
     <widget source="key_red" render="Label" position="445,780" size="330,50" zPosition="1" font="Regular;32" halign="left" valign="center" foregroundColor="button" backgroundColor="bgkey" transparent="1" />
     <widget source="menu" render="Listbox" position="5,20" size="810,600" zPosition="3" scrollbarMode="showOnDemand" transparent="1" selectionDisabled="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png">
       <convert type="TemplatedMultiContent">
-{"template": [  MultiContentEntryText(pos = (5, 2), size = (500, 35), flags = RT_HALIGN_LEFT, text = 0),
+{"template": [  MultiContentEntryText(pos = (5, 2), size = (500, 35), flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (510, 5), size = (300, 35), flags = RT_HALIGN_LEFT, text = 1)],
 "fonts": [gFont("Regular", 30)],
 "itemHeight": 40 }
@@ -2732,7 +2732,7 @@ MultiContentEntryText(pos = (10, 5), size = (800, 290), flags = RT_HALIGN_LEFT|R
     <widget source="list" render="Listbox" position="20,20" size="1260,600" scrollbarMode="showOnDemand" enableWrapAround="1" zPosition="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg1260x75.png" selectionPixmap="BlackShadowSE_P/menu/button1260x75.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 7), size = (1180, 32), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+MultiContentEntryText(pos = (10, 7), size = (1180, 32), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 0 is the name
 MultiContentEntryText(pos = (10, 40), size = (1180, 32), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
 MultiContentEntryPixmapAlphaTest(pos = (1180, 16), size = (48, 48), png = 4), # index 4 is the status pixmap
 MultiContentEntryPixmapAlphaTest(pos = (5, 89), size = (0, 0), png = 5), # index 4 is the div pixmap
@@ -2813,13 +2813,13 @@ MultiContentEntryPixmapAlphaTest(pos = (5, 89), size = (0, 0), png = 5), # index
       <convert type="TemplatedMultiContent">
 {"templates":
 {"default": (60,[
-MultiContentEntryText(pos = (10, 0), size = (730, 32), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+MultiContentEntryText(pos = (10, 0), size = (730, 32), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 0 is the name
 MultiContentEntryText(pos = (10, 32), size = (750, 25), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
 MultiContentEntryPixmapAlphaTest(pos = (740, 7), size = (48, 48), png = 5), # index 5 is the status pixmap
 MultiContentEntryPixmapAlphaTest(pos = (0, 75), size = (0, 0), png = 6), # index 6 is the div pixmap
 ]),
 "category": (60,[
-MultiContentEntryText(pos = (10, 0), size = (800, 32), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+MultiContentEntryText(pos = (10, 0), size = (800, 32), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 0 is the name
 MultiContentEntryText(pos = (10, 32), size = (800, 25), font=2, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the description
 MultiContentEntryPixmapAlphaTest(pos = (0, 59), size = (0, 0), png = 3), # index 3 is the div pixmap
 ])
@@ -2840,7 +2840,7 @@ MultiContentEntryPixmapAlphaTest(pos = (0, 59), size = (0, 0), png = 3), # index
     <widget source="list" render="Listbox" position="5,20" size="810,540" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x60.png" selectionPixmap="BlackShadowSE_P/menu/button820x60.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (55, 0), size = (760, 32), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+MultiContentEntryText(pos = (55, 0), size = (760, 32), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 0 is the name
 MultiContentEntryText(pos = (55, 32), size = (760, 25), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 1 is the state
 MultiContentEntryPixmapAlphaTest(pos = (0, 10), size = (48, 48), png = 2), # index 2 is the status pixmap
 MultiContentEntryPixmapAlphaTest(pos = (0, 0), size = (0, 0), png = 3), # index 3 is the div pixmap
@@ -2961,7 +2961,7 @@ MultiContentEntryPixmapAlphaTest(pos = (0, 0), size = (0, 0), png = 3), # index 
     <widget source="list" render="Listbox" position="20,20" size="1260,600" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg1260x120.png" selectionPixmap="BlackShadowSE_P/menu/button1260x120.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (110, 8), size = (1140, 40), font=0, text = 0),
+MultiContentEntryText(pos = (110, 8), size = (1140, 40), font=0, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (110, 48), size = (1140, 70), font=1, flags = RT_VALIGN_TOP, text = 1),
 MultiContentEntryPixmapAlphaTest(pos = (10, 20), size = (80, 80), png = 2),
 ],
@@ -2998,7 +2998,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 20), size = (80, 80), png = 2),
     <widget source="list" render="Listbox" position="5,20" size="810,600" zPosition="2" enableWrapAround="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (5, 2), size = (810, 36), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (5, 2), size = (810, 36), flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 ],
 "fonts": [gFont("Regular", 30)],
 "itemHeight": 40
@@ -3175,7 +3175,7 @@ MultiContentEntryPixmapAlphaTest(pos = (110, 12), size = (48, 48), png = 6), # i
     <widget source="config" render="Listbox" position="10,20" size="800,540" zPosition="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x90.png" selectionPixmap="BlackShadowSE_P/menu/button820x90.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (70, 10), size = (730, 75), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+MultiContentEntryText(pos = (70, 10), size = (730, 75), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 0 is the name
 MultiContentEntryPixmapAlphaTest(pos = (10, 9), size = (48, 48), png = 3), # index 4 is the status pixmap
 ],
 "fonts": [gFont("Regular", 44)],
@@ -3239,7 +3239,7 @@ MultiContentEntryPixmapAlphaTest(pos = (755, 9), size = (48, 48), png = 5), # in
     <widget source="config" render="Listbox" position="10,20" size="800,540" zPosition="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x90.png" selectionPixmap="BlackShadowSE_P/menu/button820x90.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (60, 7), size = (705, 42), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+MultiContentEntryText(pos = (60, 7), size = (705, 42), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 2 is the Menu Titel
 MultiContentEntryText(pos = (60, 52), size = (705, 30), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
 MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (48, 48), png = 3), # index 4 is the pixmap
 ],
@@ -3500,7 +3500,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 17), size = (48, 48), png = 3), # in
     <widget source="list" render="Listbox" position="0,10" size="820,630" zPosition="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x90.png" selectionPixmap="BlackShadowSE_P/menu/button820x90.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10,5),size = (550,40),font=0,flags = RT_HALIGN_LEFT,text = 0),# index 0 is the essid
+MultiContentEntryText(pos = (10,5),size = (550,40),font=0,flags = RT_HALIGN_LEFT,text = 0, color=0xffa500),# index 0 is the essid
 MultiContentEntryText(pos = (10,50),size = (290,35),font=1,flags = RT_HALIGN_LEFT,text = 5),# index 5 is the interface
 MultiContentEntryText(pos = (310,50),size = (300,35),font=1,flags = RT_HALIGN_LEFT,text = 4),# index 0 is the encryption
 MultiContentEntryText(pos = (570,5),size = (240,35),font=1,flags = RT_HALIGN_LEFT,text = 2),# index 0 is the signal
@@ -3676,7 +3676,7 @@ MultiContentEntryText(pos = (70,7), size = (750,40), flags = RT_HALIGN_LEFT, tex
   <screen name="CrossEPG_Providers" position="30,120" size="820,850" title="CrossEPG Providers">
     <widget source="list" render="Listbox" position="10,20" size="800,640" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (10, 5), size = (740, 30), font=0, flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (10, 5), size = (740, 30), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaTest(pos = (738, 4), size = (40, 40), png = 1),
 ],
 "fonts": [gFont("Regular", 28)],
@@ -3697,7 +3697,7 @@ MultiContentEntryPixmapAlphaTest(pos = (738, 4), size = (40, 40), png = 1),
   <screen name="CrossEPG_Ordering" position="30,120" size="820,850" title="CrossEPG-Ordering">
     <widget source="list" render="Listbox" position="10,20" size="800,640" zPosition="1" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x40.png" selectionPixmap="BlackShadowSE_P/menu/button820x40.png" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (10, 5), size = (740, 30), font=0, flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (10, 5), size = (740, 30), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaTest(pos = (738, 4), size = (40, 40), png = 1),
 ],
 "fonts": [gFont("Regular", 28)],
@@ -3877,7 +3877,7 @@ MultiContentEntryPixmapAlphaTest(pos = (738, 4), size = (40, 40), png = 1),
   <screen name="BhSetupGreen" position="30,120" size="820,850" title="Open Black Hole Green Panel Setup">
     <widget source="list" render="Listbox" enableWrapAround="1" position="20,20" size="780,600" zPosition="1" scrollbarMode="showNever" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x60.png" selectionPixmap="BlackShadowSE_P/menu/sel820x60.png" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
 ],
 "fonts": [gFont("Regular", 34)],
@@ -3970,7 +3970,7 @@ MultiContentEntryPixmapAlphaBlend(pos = (10, 5), size = (50, 50), png = 1),
     <widget source="list" render="Listbox" position="10,20" size="800,540" zPosition="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x90.png" selectionPixmap="BlackShadowSE_P/menu/button820x90.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (0, 10), size = (800, 35), flags = RT_HALIGN_LEFT, font=0, text = 0),
+MultiContentEntryText(pos = (0, 10), size = (800, 35), flags = RT_HALIGN_LEFT, font=0, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (0, 48), size = (800, 35), flags = RT_HALIGN_LEFT, font=1, text = 1),
 ],
 "fonts": [gFont("Regular", 26),gFont("Regular", 26)],
@@ -4879,7 +4879,7 @@ MultiContentEntryText(pos = (75, 0), size = (700, 60), font=0, flags = RT_HALIGN
     <widget source="list" render="Listbox" position="10,20" size="800,540" zPosition="1" scrollbarMode="showOnDemand" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x90.png" selectionPixmap="BlackShadowSE_P/menu/button820x90.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (80, 0), size = (720, 40), font=0, text = 0),
+MultiContentEntryText(pos = (80, 0), size = (720, 40), font=0, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (80, 50), size = (720, 32), font=1, flags = RT_VALIGN_TOP, text = 1),
 MultiContentEntryPixmapAlphaBlend(pos = (0, 0), size = (80, 80), png = 2),
 ],
@@ -4920,7 +4920,7 @@ MultiContentEntryPixmapAlphaBlend(pos = (0, 0), size = (80, 80), png = 2),
     <widget source="list" render="Listbox" position="5,200" size="810,375" scrollbarMode="showOnDemand" enableWrapAround="1" foregroundColor="button" backgroundColor="bgbutton" backgroundColorSelected="selbutton" backgroundPixmap="BlackShadowSE_P/menu/bg820x75.png" selectionPixmap="BlackShadowSE_P/menu/button820x75.png" transparent="1">
       <convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (10, 0), size = (740, 35), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 0 is the name
+MultiContentEntryText(pos = (10, 0), size = (740, 35), font=0, flags = RT_HALIGN_LEFT, text = 0, color=0xffa500), # index 0 is the name
 MultiContentEntryText(pos = (10, 38), size = (740, 32), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 2 is the description
 MultiContentEntryPixmapAlphaTest(pos = (750, 12), size = (50, 50), png = 4), # index 4 is the status pixmap
 MultiContentEntryPixmapAlphaTest(pos = (0, 0), size = (0, 0), png = 5), # index 4 is the div pixmap
@@ -6353,7 +6353,7 @@ self["list"].instance.setItemHeight(40)
       <convert type="TemplatedMultiContent">
 {"templates":
 {"default": (33, [
-MultiContentEntryText(pos = (0, 0),   size = (270, 35),  font = 0, color = 0xDAA520, flags = RT_HALIGN_LEFT,  text = 0), # langname,
+MultiContentEntryText(pos = (0, 0),   size = (270, 35),  font = 0, color = 0xDAA520, flags = RT_HALIGN_LEFT,  text = 0, color=0xffa500), # langname,
 MultiContentEntryText(pos = (290, 0),   size = (870, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 1)
 ], False, "showNever"),
 },
@@ -6412,7 +6412,7 @@ MultiContentEntryText(pos = (1160, 0), size = (100, 25), font = 0, flags = RT_HA
       <convert type="TemplatedMultiContent">
 {"templates":
 {"default": (40, [
-MultiContentEntryText(pos = (5, 0),   size = (380, 40),  font = 0, color = 0xffffff, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,  text = 0), # langname,
+MultiContentEntryText(pos = (5, 0),   size = (380, 40),  font = 0, color = 0xffffff, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER,  text = 0, color=0xffa500), # langname,
 ], True, "showOnDemand"),
 },
 "fonts": [gFont("Regular", 28)],
@@ -6437,12 +6437,12 @@ MultiContentEntryText(pos = (5, 0),   size = (380, 40),  font = 0, color = 0xfff
       <convert type="TemplatedMultiContent">
 {"templates":
 {"default": (35, [
-MultiContentEntryText(pos = (0, 0),   size = (250, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 0), # name,
+MultiContentEntryText(pos = (0, 0),   size = (250, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 0, color=0xffa500), # name,
 MultiContentEntryText(pos = (260, 0),  size = (800, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 1), # lang,
 MultiContentEntryText(pos = (1060, 0), size = (160, 35), font = 0, flags = RT_HALIGN_RIGHT, text = 2, color=0xFF000003) # enabled,
 ], True, "showOnDemand"),
 "notselected": (35, [
-MultiContentEntryText(pos = (0, 0),   size = (250, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 0), # name,
+MultiContentEntryText(pos = (0, 0),   size = (250, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 0, color=0xffa500), # name,
 MultiContentEntryText(pos = (260, 0),  size = (800, 35),  font = 0, flags = RT_HALIGN_LEFT,  text = 1), # lang,
 MultiContentEntryText(pos = (1060, 0), size = (160, 35), font = 0, flags = RT_HALIGN_RIGHT, text = 2, color=0xFF000003) # enabled,
 ], False, "showOnDemand")
@@ -7034,7 +7034,7 @@ MultiContentEntryText(pos = (12, 1), size = (1200, 38), font=0, flags = RT_HALIG
       <convert type="TemplatedMultiContent">
 {"template":
 [
-MultiContentEntryText(pos = (10, 2), size = (1250, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0),
+MultiContentEntryText(pos = (10, 2), size = (1250, 35), font=0, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (20, 38), size = (1240, 30), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 1),
 MultiContentEntryText(pos = (20, 68), size = (1240, 30), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 2),
 MultiContentEntryText(pos = (20, 98), size = (1240, 30), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 3),
@@ -7085,7 +7085,7 @@ MultiContentEntryText(pos = (20, 128), size = (1240, 30), font=1, flags = RT_HAL
   <screen name="BluetoothDiscoveryScreen" position="30,120" size="820,850" title="Bluetooth Discovery">
     <widget source="deviceList" render="Listbox" enableWrapAround="1" position="15,20" size="790,600" zPosition="1" scrollbarMode="showNever" transparent="1">
       <convert type="TemplatedMultiContent">
-{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0),
+{"template": [ MultiContentEntryText(pos = (80,11), size = (730,40), flags = RT_HALIGN_LEFT, text = 0, color=0xffa500),
 MultiContentEntryPixmapAlphaTest(pos = (10, 5), size = (50, 50), png = 1),
 ],
 "fonts": [gFont("Regular", 32),gFont("Regular", 26)],
@@ -7109,7 +7109,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 5), size = (50, 50), png = 1),
       <convert type="TemplatedMultiContent">
 {"template":
 [
-MultiContentEntryText(pos = (80, 0), size = (720, 40), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0), # index 0 is Name
+MultiContentEntryText(pos = (80, 0), size = (720, 40), font=1, flags = RT_HALIGN_LEFT|RT_VALIGN_CENTER, text = 0, color=0xffa500), # index 0 is Name
 MultiContentEntryText(pos = (80, 40), size = (180, 30), font=2, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 1), # index 1 is type
 MultiContentEntryText(pos = (280, 40), size = (520, 30), font=2, flags = RT_HALIGN_LEFT|RT_VALIGN_TOP, text = 2), # index 2 is status
 MultiContentEntryPixmapAlphaTest(pos = (10, 10), size = (50, 50), png = 3), # index 3 is bt_icon
@@ -7198,7 +7198,7 @@ MultiContentEntryPixmapAlphaTest(pos = (10, 10), size = (50, 50), png = 3), # in
 		<widget source="list" render="Listbox" position="20,20" size="780,580" scrollbarMode="showOnDemand" >
 		<convert type="TemplatedMultiContent">
 {"template": [
-MultiContentEntryText(pos = (90, 0), size = (710, 35), color = 0x0058bcff, color_sel = 0x00ffc000, font=0, text = 0),
+MultiContentEntryText(pos = (90, 0), size = (710, 35), color = 0x0058bcff, color_sel = 0x00ffc000, font=0, text = 0, color=0xffa500),
 MultiContentEntryText(pos = (150, 35), size = (650, 95), font=1, flags = RT_VALIGN_TOP, text = 1),
 MultiContentEntryText(pos = (680, 0), size = (100, 28), font=2,color = 0x00999999, color_sel = 0x00999999, flags = RT_VALIGN_CENTER, text = 3),
 MultiContentEntryPixmapAlphaBlend(pos = (0, 0), size = (80, 80), png = 2),
