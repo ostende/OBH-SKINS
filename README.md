@@ -1,1 +1,1 @@
-OBH-SKINS
+# OpenBH skins

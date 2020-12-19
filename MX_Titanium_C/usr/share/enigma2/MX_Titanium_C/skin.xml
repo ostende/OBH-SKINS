@@ -1,7 +1,7 @@
 <skin>
 <!--
 MX Titanium C
-Open black hole version: 4.3
+Open black hole version: 0.6
 skin author: Matrix10
 This skin is a Freeware. Everyone can modify and use it in other images,
 but don't tell it's yours, or your idea!		-->
@@ -820,20 +820,17 @@ DO NOT REMOVE OR CHANGE THIS HEADER AND SKIN NAME !!!		-->
 <convert type="ValueRange">18,18</convert>
 <convert type="ConditionalShowHide"/>
 </widget>
-<widget source="global.CurrentTime" render="Label" position="1635,220" size="210,40" font="Regular;32" halign="center" foregroundColor="#008dbc" backgroundColor="#383838" transparent="1">
+<widget source="global.CurrentTime" render="Label" position="1635,230" size="210,40" font="Regular;32" halign="center" foregroundColor="#008dbc" backgroundColor="#383838" transparent="1">
 <convert type="ClockToText">Format:%d.%m.%Y</convert>
 </widget>
-<widget source="session.CurrentService" render="Label" position="1000,244" size="600,30" halign="left" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#1d1d1d">
+<widget source="session.CurrentService" render="Label" position="990,244" size="600,30" halign="right" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#1d1d1d">
 <convert type="PliExtraInfo">TransponderInfo</convert>
 </widget>
-<widget source="session.CurrentService" render="Label" position="1000,220" size="180,30" halign="left" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#383838">
+<widget source="session.CurrentService" render="Label" position="1190,220" size="200,30" halign="left" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#383838">
 <convert type="PliExtraInfo">ResolutionString</convert>
 </widget>
-<widget source="session.CurrentService" render="Label" position="1180,220" size="190,30" halign="left" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#383838">
+<widget source="session.CurrentService" render="Label" position="1380,220" size="200,30" halign="left" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#383838">
 <convert type="PliExtraInfo">VideoCodec</convert>
-</widget>
-<widget source="session.CurrentService" render="Label" position="1370,220" size="300,30" halign="left" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#383838">
-<convert type="OpenEcmInfo">bitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="80,220" size="425,30" halign="center" font="Regular;22" zPosition="4" transparent="1" foregroundColor="#cccccc" backgroundColor="#383838">
 <convert type="PliExtraInfo">CryptoSpecial</convert>

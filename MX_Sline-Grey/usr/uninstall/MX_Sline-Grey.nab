@@ -1,0 +1,15 @@
+#!/bin/sh
+
+rm -rf /usr/share/enigma2/MX_Sline-Grey
+rm -rf /usr/uninstall/MX_Sline-Grey.nab
+
+activeskin=`grep -c -e 'MX_Sline-Grey' /etc/enigma2/settings`
+
+if test $activeskin = 1
+then
+sed -e '/MX_Sline-Grey/d' /etc/enigma2/settings > /tmp/settings
+mv /tmp/settings /etc/enigma2/settings
+killall -9 enigma2
+fi
+
+exit 0
