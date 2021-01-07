@@ -2029,7 +2029,6 @@ MultiContentEntryPixmap(pos = (10, 5), size = (60, 40), png = 2),
   </screen>
   <screen name="EventView" position="center,105" size="1820,880" title="Eventview">
     <ePixmap pixmap="BlackShadowSE_P/menu/menubutton.png" position="1710,810" size="48,48" alphatest="blend" />
-    <eLabel position="1200,20" size="620,320" zPosition="2" backgroundColor="black" />
     <widget source="session.Event_Now" render="Backdrop" position="1246,28" zPosition="3" size="530,300" backgroundColor="transparent2" />
     <widget name="channel" position="20,10" zPosition="1" size="1170,40" font="Regular;34" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1" />
     <widget name="datetime" position="1260,369" size="460,40" font="Regular;32" halign="left" foregroundColor="button" backgroundColor="bgbutton" transparent="1" />
