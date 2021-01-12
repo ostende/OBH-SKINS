@@ -10,7 +10,6 @@ echo "*** **** ***** **** ****"
 echo "************************"
 sleep 3
 opkg install https://bitbucket.org/ostend/feeds/raw/197b3786cb58245af91c0bda54dd75e3b0c43bde/all/enigma2-plugin-skins-blackshadowseo_3.0%2Bgit12%2Bcf31a23-r2_all.ipk
-
 echo "#########################################################"
 echo "#          Skin BlackShadowSE Mod Ostende               #"
 echo "#                INSTALLED SUCCESSFULLY                 #"
